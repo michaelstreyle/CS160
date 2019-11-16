@@ -1,0 +1,12 @@
+Michael Streyle
+Heaps Exercise - Exercise #9
+11/15/18
+
+Below are the steps to turn the original list into a Min Binary Heap. 
+
+Step 0: [60, 32, 46, 41, 45, 34, 50, 21, 10, 28]
+Step 1: [60, 32, 46, 41, 28, 34, 50, 21, 10, 45]
+Step 2: [60, 32, 46, 10, 28, 34, 50, 21, 41, 45]
+Step 3: [60, 32, 34, 10, 28, 46, 50, 21, 41, 45]
+Step 4: [60, 10, 34, 21, 28, 46, 50, 32, 41, 45]
+Step 5: [10, 21, 34, 32, 28, 46, 50, 60, 41, 45]

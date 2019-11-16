@@ -1,0 +1,12 @@
+[
+  "Exercise2Test.py::TestAnimalsMethods::()::test_Animal",
+  "Exercise2Test.py::TestAnimalsMethods::()::test_Bird",
+  "Exercise2Test.py::TestAnimalsMethods::()::test_Mammal",
+  "Exercise2Test.py::TestAnimalsMethods::()::test_Parrot",
+  "Exercise2Test.py::TestAnimalsMethods::()::test_Penguin",
+  "Exercise2Test.py::TestAnimalsMethods::()::test_Canine",
+  "Exercise2Test.py::TestAnimalsMethods::()::test_Feline",
+  "Exercise2Test.py::TestAnimalsMethods::()::test_Dog",
+  "Exercise2Test.py::TestAnimalsMethods::()::test_HouseCat",
+  "Exercise2Test.py::TestAnimalsMethods::()::test_BobCat"
+]

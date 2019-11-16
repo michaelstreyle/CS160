@@ -1,0 +1,27 @@
+Michael Streyle
+11/12/18
+
+The pre-order tree traversal of the tree created in the first part of the exercise is:
+a
+b
+d
+c
+e
+f
+
+
+The in-order tree traversal of the tree created in the first part of the exercise is:
+b
+d
+a
+e
+c
+f
+
+The post-order tree traversal of the tree created in the first part of the exercise is:
+d
+b
+e
+f
+c
+a

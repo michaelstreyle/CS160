@@ -1,0 +1,84 @@
+li = [20, 16, 12, 14, 14, 15, 17, 17, 7, 13]
+
+
+# Insertion Sort
+[[20],16, 12, 14, 14, 15, 17, 17, 7, 13] #first assume first element is a sorted sublist of length 1
+
+[[16, 20], 12, 14, 14, 15, 17, 17, 7, 13] # add the next item (16) to the appropriate place in the sub list
+                                            # so that sublist grows by one
+
+[[12, 16, 20], 14, 14, 15, 17, 17, 7, 13]   # add the next item (12) to the appropriate place in the sub list
+                                            # so that sublist grows by one                      
+
+[[12, 14, 16, 20], 14, 15, 17, 17, 7, 13]    # add the next item (14) to the appropriate place in the sub list
+                                            # so that sublist grows by one 
+
+[[12, 14, 14, 16, 20], 15, 17, 17, 7, 13]   # add the next item (14) to the appropriate place in the sub list
+                                            # so that sublist grows by one
+
+[[12, 14, 14, 15, 16, 20], 17, 17, 7, 13]   # add the next item (15) to the appropriate place in the sub list
+                                            # so that sublist grows by one
+
+[[12, 14, 14, 15, 16, 17, 20], 17, 7, 13]   # add the next item (17) to the appropriate place in the sub list
+                                            # so that sublist grows by one
+
+[[12, 14, 14, 15, 16, 17, 17, 20], 7, 13]   # add the next item (17) to the appropriate place in the sub list
+                                            # so that sublist grows by one
+
+
+[[7, 12, 14, 14, 15, 16, 17, 17, 20], 13]   # add the next item (7) to the appropriate place in the sub list
+                                            # so that sublist grows by one
+
+[[7, 12, 13, 14, 14, 15, 16, 17, 17, 20]]   # add the next item (13) to the appropriate place in the sub list
+                                            # so that sublist grows by one
+
+[7, 12, 13, 14, 14, 15, 16, 17, 17, 20]     #the sublist is now the whole list, but ordered!!
+
+
+
+
+# MergeSort
+li = [20, 16, 12, 14, 14, 15, 17, 17, 7, 13]
+
+
+[20, 16, 12, 14, 14, 15, 17, 17, 7, 13] #Splitting the list in half
+[20, 16, 12, 14, 14] #Splitting list
+[20, 16] #Splitting list
+[20] #Splitting list
+[20] #Merging
+[16] #Splitting 
+[16] #Merging
+[16, 20] #Merging lists in order
+[12, 14, 14] #Splitting other lists
+[12] #Splitting 
+[12] #Merging
+[14, 14] #Splitting 
+[14] #Splitting 
+[14] #Merging
+[14] #Splitting 
+[14] #Merging
+[14, 14] #Merging
+[12, 14, 14] #Merging
+[12, 14, 14, 16, 20] #Merging
+[15, 17, 17, 7, 13] #Splitting 
+[15, 17] #Splitting 
+[15] #Splitting 
+[15] #Merging
+[17] #Splitting 
+[17] #Merging
+[15, 17] #Merging
+[17, 7, 13] #Splitting 
+[17] #Splitting 
+[17] #Merging
+[7, 13] #Splitting 
+[7] #Splitting 
+[7] #Merging
+[13] #Splitting 
+[13] #Merging
+[7, 13] #Merging
+[7, 13, 17] #Merging
+[7, 13, 15, 17, 17] #Merging
+[7, 12, 13, 14, 14, 15, 16, 17, 17, 20] #Merging the sorted lists 
+[7, 12, 13, 14, 14, 15, 16, 17, 17, 20] #the list is now sorted using merge sort
+
+

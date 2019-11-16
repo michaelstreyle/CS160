@@ -1,0 +1,7 @@
+[
+  "Exercise10_test.py::TestGraphMethods::()::test_dijkstra_t",
+  "Exercise10_test.py::TestGraphMethods::()::test_dijkstra_x",
+  "Exercise10_test.py::TestGraphMethods::()::test_len",
+  "Exercise10_test.py::TestGraphMethods::()::test_size",
+  "Exercise10_test.py::TestGraphMethods::()::test_hub"
+]
